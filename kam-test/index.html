@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kam Thing</title>
+      <script>
+        function addToList(){
+            var stuff = document.getElementById('stuff').value;
+            document.getElementById('stuff').value = "";
+            var list = document.createElement('li');
+            var tx = document.createTextNode(stuff);
+            tx.appendChild(list);
+            var pos = document.getElementByTagName('ol');
+            pos.appendChild(list); // no
+        }
+    </script>
+</head>
+<body>
+  
+    <input type="text" id="stuff">
+    <button onClick="addToList()">Add To List</button>
+    <ol>
+    </ol>
+    
+</body>
+</html>

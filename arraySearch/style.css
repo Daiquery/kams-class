@@ -1,0 +1,24 @@
+.center {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.sexyinput {
+    padding: 10px;
+    margin: 7px;
+}
+
+.sexybutton {
+    background-color: greenyellow;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body {
+    background-color: orange;
+}
