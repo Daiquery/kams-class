@@ -1,0 +1,45 @@
+.bmiCalculator {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: thistle;
+}
+
+.bmiCalculator .result {
+    background-color: white;
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+
+}
+
+input:hover {
+    background-color: lightgray;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+body {
+    background-color: whitesmoke;
+}
