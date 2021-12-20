@@ -1,0 +1,88 @@
+.kamnav {
+  position: relative;
+  z-index: 500;
+  height: auto;
+  padding-top: 0;
+  background-color: black;
+  background-image: linear-gradient(to bottom, black, #393939);
+  background-repeat: repeat-x;
+  border: 1px solid #393939;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 7%);
+  width: 100vw !important;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+.headerholder {
+    margin: 0 auto;
+    height: auto;
+    max-width: 1180px;
+}
+
+.navitembar {
+    max-width: 1180px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: block;
+  height: 100%;
+}
+
+.item {
+  display: inline;
+  position: relative;
+  height: 100%;
+  width: auto;
+  color: white;
+
+}
+
+
+
+.item a {
+    color: white;
+    letter-spacing: 0.03rem;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 1em;
+    display: inline-block;
+
+
+}
+
+.item a:hover {
+    background-color: rgb(78, 0, 2);
+    background-image: linear-gradient( rgb(78, 0, 2) 0%, rgb(130, 0, 3) 16%, rgb(155, 0, 3) 24%, rgb(181, 0, 4) 40%, rgb(189, 0, 4) 51%, rgb(192, 0, 4) 64%, rgb(192, 0, 4) 100% );
+    color: white;
+}
+
+.order {
+    float: right;
+    background-color: #D21C29;
+    padding: 2px 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  max-width: 12%;
+  margin: 0;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.carouselholder {
+    padding: 15px;
+    height: 100%;
+}
